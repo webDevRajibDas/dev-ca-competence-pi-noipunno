@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.min-vh-90-100 {
+  height: calc(100vh - 100px);
+}
+.max-width-540 {
+  max-width: 540px;
+}
+body {
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+:root {
+  /* color */
+  --bg_primary_dark: #2d6668;
+  --bg_primary: #428f92;
+  --bg_secondary: #a9fcff;
+  --bg_success: #f0fae9;
+  --text_primary_dark: #2d6668;
+  --text_secondary_dark: #0e7e7e;
+  --text_primary_fade: #7daeb0;
+  --text_success: #69cb1c;
+  --text_dark: #222222;
+  --text_white: #ffffff;
+  --text_blue_dark: #181c32;
+}
+
+/* ---------deshboard page start------------------- */
+/* topnav bar start */
+.topnav-icons {
+  color: #555555;
+}
+.topnav-icon-style {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+}
+.topnav-profile-icon-style {
+  height: 38px;
+  width: 38px;
+  margin-left: 16px;
+}
+/* topnav bar end */
+/* nav bar start */
+.navbar-btn {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.0225em;
+  text-align: left;
+  padding: 5px;
+  border-radius: 4px;
+  gap: 10px;
+  background-color: #428f92;
+  color: var(--text_white);
+}
+.navbar-btn:hover {
+  color: var(--text_dark);
+}
+
+.nav-link {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--text_dark) !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.nav-item .active {
+  background-color: #e4feff;
+  color: var(--bg_primary);
+  border-radius: 6px;
+}
+
+#navbarSupportedContent ul li:hover > a {
+  background-color: #e4feff;
+  color: var(--bg_primary);
+  border-radius: 6px;
+}
+
+.icon-right-space {
+  padding-right: 10px;
+}
+.icon-left-space {
+  padding-left: 10px;
+}
+/* nav bar end */
+
+.topnav-dropdown-style {
+  padding: 7px 24px 7px 24px;
+  width: 230px;
+}
+.topnav-dropdown-style:hover {
+  padding: 7px 24px 7px 24px;
+  width: 230px;
+  background-color: #e4feff;
+}
+.topnav-dropdown-style a {
+  color: #4b465c;
+}
+
+.custom-class-title{
+    color: var(--text-regular, #222);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 141.667% */
+}
+
+

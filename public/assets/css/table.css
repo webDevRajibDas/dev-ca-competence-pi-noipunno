@@ -1,0 +1,77 @@
+    /* Style for table container */
+    .table-container {
+        width: 100%;
+        margin: 20px auto;
+      }
+
+      /* Style for custom table */
+      .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+        border-radius: 20px;
+      }
+
+      /* Style for table header */
+      .custom-table th {
+        background-color: #ffffff;
+        color: rgb(77, 77, 77); /* Header text color */
+        padding: 10px;
+        font-weight: 200;
+        border-bottom: 1px solid var(--border-regular, #E5E5E5);
+        color: var(--text-regular, #222);
+
+        /* Medium/Medium */
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 142.857% */
+      }
+
+      /* Style for table body */
+      .custom-table td {
+        padding: 8px;
+        /* text-align: center; */
+        border-bottom: 1px solid var(--border-regular, #E5E5E5);
+        color: var(--text-muted, #555);
+        /* Medium/Regular */
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+      }
+
+      /* Alternate row color in table body */
+      .custom-table tbody tr:nth-child(even) {
+        background-color: #ffffff; /* Even row background color */
+      }
+
+      .custom-edit-btn{
+        width: 24px;
+        border: none;
+        font-size: 12px;
+        margin-right: 6px;
+        height: 24px;
+        padding: 0px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 2px;
+        background: var(--primary-regular, #428F92);
+      }
+
+      .custom-delete-btn{
+        width: 26px;
+        border: none;
+        font-size: 12px;
+        margin-right: 6px;
+        height: 24px;
+        padding: 0px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 2px;
+        background: var(--primary-regular, rgb(184, 3, 3));
+      }

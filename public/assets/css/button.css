@@ -1,0 +1,41 @@
+/* Style for custom button */
+.custom-button {
+
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #428F92; /* Button background color */
+    color: #fff; /* Button text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    padding: 11px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+
+}
+
+.btn-color{
+    background-color: #428F92; /* Button background color */
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.315px;
+    text-transform: capitalize;
+}
+
+.btn-color:hover{
+    color: #fff;
+}
+
